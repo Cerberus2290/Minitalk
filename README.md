@@ -73,13 +73,13 @@ You must create a communication program in the form of a client and a server.
 Once the string has been received, the server must print it.
 * The server has to display the string pretty quickly. Quickly means that if you think it takes too long, then it is probably too long.
 
-## :lightbulb:</br>1 second for displaying 100 characters is way too much!</br>:lightbulb:
+## :bulb:</br>1 second for displaying 100 characters is way too much!</br>:bulb:
 
 * Your server should be able to receive strings from several clients in a row without needing to restart.
 * The communication between your client and your server has to be done **only** using UNIX signals.
 * You can only use these two signals:</br> **SIGUSR1** and **SIGUSR2**.
 
-## :information:_source:</br>Linux system does NOT queue signals when you already have pending signals of this type!  Bonus time?</br>:information_source:
+## :information_source:</br>Linux system does NOT queue signals when you already have pending signals of this type!  Bonus time?</br>:information_source:
 
 <p align="right">
  <a href="https://github.com/Cerberus2290/Minitalk#-beware-">back to top</a>
