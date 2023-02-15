@@ -95,7 +95,7 @@ Once the string has been received, the server must print it.
 
 Bonus list:
 * The server acknowledges every message received by sending back a signal to the client.
-* Unicode characters support! (:grin: | 有 あ る)
+* Unicode characters support! ( :grin: | 有 あ る)
 
 ## :heavy_exclamation_mark:</br>The bonus part will only be assessed if the mandatory part is PERFECT. Perfect means the mandatory part has been integrally done and works without malfunctioning. If you have not passed ALL the mandatory requirements, your bonus part will not be evaluated at all.</br>:heavy_exclamation_mark:
 
