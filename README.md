@@ -34,6 +34,8 @@
 
 # <a name="project">Project Instructions</a>
 
+![Logo_Monolith_small](https://user-images.githubusercontent.com/120580537/209333599-dc44418d-8ee7-42b6-8a4a-7ff328778d87.png)
+
 * Name your executable files **client** and **server**.
 * You have to turn in a **Makefile** which will compile your source files. It must not
 relink.
@@ -64,6 +66,8 @@ the server), but you will have to justify their use.
 
 # <a name="manda">Mandatory Part</a>
 
+![Logo_Monolith_small](https://user-images.githubusercontent.com/120580537/209333599-dc44418d-8ee7-42b6-8a4a-7ff328778d87.png)
+
 You must create a communication program in the form of a client and a server.
 * The server must be started first. After its launch, it has to print its PID.
 * The client takes two parameters:
@@ -80,6 +84,20 @@ Once the string has been received, the server must print it.
 * You can only use these two signals:</br> **SIGUSR1** and **SIGUSR2**.
 
 ## :information_source:</br>Linux system does NOT queue signals when you already have pending signals of this type!  Bonus time?</br>:information_source:
+
+<p align="right">
+ <a href="https://github.com/Cerberus2290/Minitalk#-beware-">back to top</a>
+</p>
+
+# <a name="bonus">Bonus Part</a>
+
+![Logo_Monolith_small](https://user-images.githubusercontent.com/120580537/209333599-dc44418d-8ee7-42b6-8a4a-7ff328778d87.png)
+
+Bonus list:
+* The server acknowledges every message received by sending back a signal to the client.
+* Unicode characters support! (:grin: | 有 あ る)
+
+## :heavy_exclamation_mark:</br>The bonus part will only be assessed if the mandatory part is PERFECT. Perfect means the mandatory part has been integrally done and works without malfunctioning. If you have not passed ALL the mandatory requirements, your bonus part will not be evaluated at all.</br>:heavy_exclamation_mark:
 
 <p align="right">
  <a href="https://github.com/Cerberus2290/Minitalk#-beware-">back to top</a>
